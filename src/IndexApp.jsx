@@ -8,6 +8,7 @@ const IndexApp = () => {
     return(
         <>
         <NavBar/>
+        
         <h1 className="saludo" >Bienvenido</h1>
         <p>Clase  de  Desarrollo </p>
 
