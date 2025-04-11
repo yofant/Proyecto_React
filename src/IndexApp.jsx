@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import "./IndexApp.css"
 import "./Navbar/NavBar"
 import NavBar from "./Navbar/NavBar";
@@ -7,22 +8,15 @@ const IndexApp = () => {
 
     return(
         <>
-        <NavBar/>
-        
-        <h1 className="saludo" >Bienvenido</h1>
-        <p>Clase  de  Desarrollo </p>
 
-        <div>
-            <table >
-                <li>
-                    <lu>
+        <header>
+            <NavBar/>
+        </header>
+        <main>
+            <Outlet/>
 
-                    </lu>
-                </li>
-            </table>
-        </div>
-
-        </>
+        </main>
+       </>
     );
 
     

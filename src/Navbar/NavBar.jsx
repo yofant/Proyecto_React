@@ -5,7 +5,7 @@ const NavBar = () => {
           <div className="container-fluid">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" href="/home ">
+                <a className="nav-link active" href="/home">
                 <i class="bi bi-house-fill"></i>
                   Home
                 </a>
