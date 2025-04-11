@@ -1,6 +1,6 @@
 import "./IndexApp.css"
-import "./NavBar"
-import NavBar from "./NavBar";
+import "./Navbar/NavBar"
+import NavBar from "./Navbar/NavBar";
 
 //funcion flechitas
 const IndexApp = () => {
@@ -11,6 +11,16 @@ const IndexApp = () => {
         
         <h1 className="saludo" >Bienvenido</h1>
         <p>Clase  de  Desarrollo </p>
+
+        <div>
+            <table >
+                <li>
+                    <lu>
+
+                    </lu>
+                </li>
+            </table>
+        </div>
 
         </>
     );
