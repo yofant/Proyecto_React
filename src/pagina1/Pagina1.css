@@ -1,0 +1,319 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+header { /* Navegacion */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70px;
+    background-color: #0c2b4a;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.boton-w { /* Botton w */
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 55px;
+    right: 30px;
+    background: #0df053;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.boton-w:hover {
+    text-decoration: none;
+    color: #0df053;
+    background: white;
+}
+
+.logo-nombre {
+    font-size: 1.3em;
+    color: white;
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 15px;
+}
+
+nav {
+    padding-bottom: 15px;
+}
+
+nav a {
+    padding-left: 10px;
+}
+
+nav a:hover {
+    background-color: #0c2b4a;
+    box-shadow: 0px 0px 400px 86px #ecFf81;
+    -webkit-box-shadow: 0px 0px 400px 86px #ecff81;
+    -moz-box-shadow: 0px 0px 400px 86px #ecff81;
+    text-decoration: underline #0c2b4a;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold; /* Negrilla */
+    padding: 10px 30px; /* Separado */
+    border-radius: 15px; /* Botton circular */
+    border: 2px solid rgb(0, 0, 0, 0.5); /* Comentario */
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5); /* Sombra */
+    background-color: cornflowerblue;
+    color: white;
+}
+
+button:hover {
+    background-color: #a581ff5b;
+}
+
+.container {
+    max-width: 1800px; /* Se centra el contenido */
+    margin: auto;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: black;
+    background-color: #0c2b4a; /* Cambié la imagen por un color de fondo */
+}
+
+#hero button {
+    font-size: 2.5em;
+}
+
+#hero h1 {
+    font-size: 4em;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#Segunda h2 {
+    margin-top: 0px;
+}
+
+#Segunda .container {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#Segunda .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Segunda .texto {
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#Segunda .img2 {
+    height: 500px;
+    width: 400px;
+    background-color: #0c2b4a; /* Cambié la imagen por un color de fondo */
+}
+
+.imagen {
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    margin: 0px 10px;
+    margin-left: -80%;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#nuestros-servicios {
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-servicios .container {
+    padding: 40px 12px;
+}
+
+#nuestros-servicios h2 {
+    margin-top: 0;
+    font-size: 3.5em;
+}
+
+#nuestros-servicios p {
+    display: none;
+}
+
+#nuestros-servicios h3 {
+    color: red;
+}
+
+#nuestros-servicios .carte {
+    background-color: #0c2b4a; /* Cambié la imagen por un color de fondo */
+    padding: 50px;
+    margin: 12px;
+    border-radius: 15px;
+    color: white;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+/*ESTILOS DE TABLA*/
+
+.Datos {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.Datos h2 {
+    text-align: center;
+    color: #333;
+}
+
+.Datos form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Datos label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.Datos input[type="text"],
+.Datos input[type="tel"],
+.Datos input[type="email"],
+.Datos textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Datos button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Datos button:hover {
+    background-color: #0056b3;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+footer p {
+    margin: 0;
+    color: #0df053;
+    padding: 12px;
+}
+
+footer .container {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/* Responsiveness */
+
+@media (max-width: 600px) {
+    .Datos {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
+
+@media (min-width: 720px) {
+    header {
+        flex-direction: row;
+        padding: 0px 30px;
+        justify-content: space-between;
+    }
+
+    #nuestros-servicios .servicios {
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-servicios h3 {
+        margin: 0;
+    }
+
+    #nuestros-servicios p {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-servicios .carte {
+        padding: 15px;
+    }
+}

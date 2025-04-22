@@ -1,21 +1,14 @@
 import { Outlet } from "react-router-dom";
 import "./IndexApp.css"
-import "./Navbar/NavBar"
-import NavBar from "./Navbar/NavBar";
+import Pagina1 from "./pagina1/Pagina1";
 
 //funcion flechitas
 const IndexApp = () => {
 
     return(
         <>
+            <Pagina1/>
 
-        <header>
-            <NavBar/>
-        </header>
-        <main>
-            <Outlet/>
-
-        </main>
        </>
     );
 

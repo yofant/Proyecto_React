@@ -1,20 +1,20 @@
 import ReactDOM from "react-dom/client";
 import IndexApp from  "./IndexApp"
 import {createBrowserRouter,Route,createRoutesFromElements,RouterProvider} from "react-router-dom";
-import Home from "./Home/Home";
-import Saludo from "./Saludo/Saludo";
+import Registro from "./Registro/Registro";
+import Login from "./Login/Login";
 import React from "react";
-import Formulario from "./Formulario/Formulario";
+import Pagina1 from "./pagina1/Pagina1";
 
 
 const router =createBrowserRouter (
 
     createRoutesFromElements(
         [   
-            <Route path="/"  element={<IndexApp/>}>,
-                <Route path ="/Home" element={<Home/>}/>,
-                <Route path="/Saludo" element={<Saludo/>}/>,
-                <Route path="/Formulario" element={<Formulario/>}/>,
+            <Route path="/"  element={<IndexApp/>}>
+                <Route path="/Pagina1" element={<Pagina1/>}/>
+                <Route path="/Registro" element={<Registro/>}/>
+                <Route path="/Login" element={<Login/>}/>
 
             </Route>
         ]
