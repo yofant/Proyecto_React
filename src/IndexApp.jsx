@@ -8,6 +8,7 @@ const IndexApp = () => {
     return(
         <>
             <Pagina1/>
+            <Outlet/>
 
        </>
     );
