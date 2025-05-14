@@ -7,10 +7,13 @@ const IndexApp = () => {
 
     return(
         <>
+        <header>
             <Pagina1/>
+        </header>
+        <main>
             <Outlet/>
-
-       </>
+        </main>
+        </>
     );
 
     
